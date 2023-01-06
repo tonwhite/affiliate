@@ -21,9 +21,14 @@ img {
   width: 100%;
 }
 
+button, input, select, textarea {
+  font: inherit;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Bitter';
   font-weight: 400;
   color: #1d2f38;
