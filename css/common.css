@@ -12,7 +12,8 @@ a {
 html {
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 1.33; /*20px*/
   color: #1d2f38;
 }
 
@@ -20,6 +21,7 @@ img {
   width: 100%;
 }
 
+h1,
 h2,
 h3 {
   font-family: 'Bitter';
