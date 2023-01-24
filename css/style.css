@@ -50,6 +50,10 @@
   flex-wrap: nowrap;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -75,9 +79,11 @@
   border-radius: 0px;
 }
 
-.logo-wrap {
-  gap: 30px;
+.gap5 {
+  gap: 5px;
 }
+
+
 
 .menu-icon {
   padding: 10px;
@@ -180,7 +186,7 @@
 }
 
 .blog-card {
-  max-width: 555px;
+  max-width: 500px;
   gap: 40px;
 }
 
@@ -190,3 +196,18 @@
   display: flex;
   
 }
+
+.first-block > .first-sub-block > .green {
+  margin-bottom: 10px;
+}
+
+.first-block > .first-sub-block > .h1 {
+  margin-bottom: 20px;
+}
+
+.first-block > .first-sub-block > .text {
+  margin-bottom: 25px;
+  display: block;
+}
+
+
