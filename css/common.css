@@ -1,35 +1,53 @@
-* {
+:root {
+  --primary-color: #1d2f38;
+  --font-main: Arial, sans-serif;
+  --main-bg-color: #f4f4f4;
+  --main-font: Arial, sans-serif;
+  --header-bg-color: #50b3a2;
+  --header-text-color: white;
+  --nav-link-color: #ffffff;
+  --nav-link-hover-bg: #ffffff;
+  --nav-link-hover-color: #50b3a2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+body, h1, h2, h3, ul, input {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-html {
-  font-family: 'Raleway';
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.33; /*20px*/
-  color: #1d2f38;
+.header {
+    background: var(--header-bg-color);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
 }
 
-img {
-  width: 100%;
+.nav {
+    background: var(--header-bg-color);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-button, input, select, textarea {
-  font: inherit;
+.nav a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Bitter';
-  font-weight: 400;
-  color: #1d2f38;
+.nav a:hover {
+    background: #ffffff;
+    color: var(--header-bg-color);
 }
